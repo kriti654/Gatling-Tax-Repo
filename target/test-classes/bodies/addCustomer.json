@@ -1,0 +1,16 @@
+{
+  "customerId": null,
+  "uin": 1089201,
+  "name": "kjk",
+  "email": "kjk@gmail.com",
+  "mobile": 8008918228,
+  "birthdate": "2000-09-09",
+  "doorNumber": "Door on the Floor",
+  "street": "Street 143",
+  "city": "Mumbai",
+  "state": "Maharashtra",
+  "country": "India",
+  "zipCode": 589061,
+  "regionId": null
+
+}
