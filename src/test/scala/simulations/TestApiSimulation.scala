@@ -12,9 +12,9 @@ class TestApiSimulation extends Simulation{
     .header(name="content-type", value ="application/json")
 
   //scenario
-  val scn = scenario("Get all tax")
+  val scn = scenario("Get all taxes")
     .exec(http("get all tax details")
-      .get("/rvy/api/um/v1/tax")
+      .get("/rvy/api/um/v1/taxes")
       .check(status is 200)
 
      )
