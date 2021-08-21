@@ -3,7 +3,7 @@ package simulations
 import io.gatling.core.scenario.Simulation
 import io.gatling.core.Predef._
 import io.gatling.http.Predef._
-class AddCustomerSimulation extends Simulation {
+class StoreTestSimulation extends Simulation {
 
   //conf
   val value_conf = http.baseUrl("http://localhost:8082")
