@@ -4,7 +4,7 @@ import io.gatling.core.scenario.Simulation
 import io.gatling.core.Predef._
 import io.gatling.http.Predef._
 
-class StoreTests extends Simulation{
+class StoreTestSimulation extends Simulation{
 
   //http conf
   val httpConf = http.baseUrl("http://localhost:8082")
