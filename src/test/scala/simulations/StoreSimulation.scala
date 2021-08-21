@@ -13,7 +13,7 @@ class TestApiSimulation extends Simulation{
 
   //scenario
   val scn = scenario("Get all stores")
-    .exec(http("get all user details")
+    .exec(http("get all store details")
       .get("/rvy/api/um/v1/stores")
       .check(status is 200))
 	.exec(http("Post store")
@@ -21,7 +21,7 @@ class TestApiSimulation extends Simulation{
       .body(RawFileBody(filePath = "./src/test/resources/bodies/addStore.json")).asJson
       .header(name="content-type",value = "application/json")
       .check(status is 200))
-      .exec(http("Get User By Id")
+      .exec(http("Get Store By Id")
        .get("/rvy/api/um/v1/store/1620")
       .header(name="content-type",value = "application/json")
       .check(status is 200)
