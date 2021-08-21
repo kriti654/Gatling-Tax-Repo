@@ -1,0 +1,21 @@
+{
+    "storeId": 1620,
+    "name": "Rvy-Chadani Chowk",
+    "address": "Chandni Chowk",
+    "mobileNumber": 9086783452,
+    "email": "rvy_chandichowk@rvy.com",
+    "region": {
+      "regionId": 1113,
+      "name": "Rvy-Chadani Chowk",
+      "city": "Delhi",
+      "state": "New-Delhi",
+      "country": "India",
+      "tax": {
+        "taxId": 288,
+        "code": 125,
+        "name": "SGST",
+        "taxAmount": 12,
+        "effectiveDate": "2020-02-19"
+      }
+    }
+ }
