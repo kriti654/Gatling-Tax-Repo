@@ -27,7 +27,7 @@ class StoreTestSimulation extends Simulation{
       .check(status is 200)
      )
   //setup
-  setUp(scn.inject(atOnceUsers(10))).protocols(httpConf)
+ 	setUp(scn.inject(constantConcurrentUsers(500) during(240))).protocols(value_conf)
 
 
 }
