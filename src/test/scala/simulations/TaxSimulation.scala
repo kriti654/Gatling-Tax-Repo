@@ -19,7 +19,7 @@ class TaxTestSimulation extends Simulation {
       .header(name="content-type",value = "application/json")
       .check(status is 200))
       .exec(http("Get Tax By Id")
-       .get("/rvy/api/um/v1/tax/288")
+       .get("/rvy/api/um/v1/tax/2")
       .header(name="content-type",value = "application/json")
       .check(status is 200))
       .exec(http("get all tax details")
