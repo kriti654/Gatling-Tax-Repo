@@ -22,7 +22,7 @@ class StoreTestSimulation extends Simulation{
       .header(name="content-type",value = "application/json")
       .check(status is 200))
       .exec(http("Get Store By Id")
-       .get("/rvy/api/um/v1/store/1620")
+       .get("/rvy/api/um/v1/store/4")
       .header(name="content-type",value = "application/json")
       .check(status is 200)
      )
